@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,800');
+
+// GLOBAL VARS
+$color-green-main: #65B728;
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+@import './content.scss';
+@import './player.scss';
+@import './commands.scss';
